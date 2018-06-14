@@ -16,6 +16,9 @@ NAME = 'py532lib'
 DESCRIPTION = 'Python wrapper around C library for RFID 532 reader'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = None
+AUTHOR = "DanyO"
+EMAIL = "me@danyo.ca"
+MAINTAINER = "Liam Deacon"
 
 # The rest you shouldn't have to touch too much :)
 # ------------------------------------------------
