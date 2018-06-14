@@ -14,7 +14,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'py532lib'
 DESCRIPTION = 'Python wrapper around C library for RFID 532 reader'
-REQUIRES_PYTHON = '>=3.6.0'
+REQUIRES_PYTHON = '>=2.7'
 VERSION = None
 AUTHOR = "DanyO"
 EMAIL = "me@danyo.ca"
@@ -88,7 +88,6 @@ setup(
     author=AUTHOR,
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
-    url=URL,
     packages=find_packages(exclude=('tests',)),
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
@@ -96,7 +95,7 @@ setup(
     # entry_points={
     #     'console_scripts': ['mycli=mymodule:cli'],
     # },
-    install_requires=REQUIRED,
+    install_requires=[],
     include_package_data=True,
     license='BSD 2 Clause license',
     classifiers=[
